@@ -1,0 +1,20 @@
+{
+  "name": "bridgetech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "yasura",
+  "license": "ISC",
+  "dependencies": {
+    "@replit/database": "^2.0.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "nodemon": "^2.0.16",
+    "sqlite3": "^5.0.8"
+  }
+}
